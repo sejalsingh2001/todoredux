@@ -1,0 +1,173 @@
+*{
+  padding: 0px;
+  margin:  0px;
+}
+body{
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.parent{
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+input, select, textarea{
+  color: rgb(143, 143, 143);
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.innerBox{
+  background-color: white;
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  border: none;
+  margin-bottom: 2px;
+  padding:15px;
+}
+#title{
+  color: #d59893;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 100;
+}
+#input {
+  height: 60px;
+  width: 500px;
+  border: none;
+  font-size: 20px;
+  font-style: italic;
+  outline: none;
+}
+#input1 {
+  outline: none;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #6e6c6c;
+  margin-left: 20px;
+  width: 250px;
+}
+::placeholder {
+  color: #E7E7E7;
+  opacity: 1;
+}
+.outerBox{
+    margin-bottom: auto;
+}
+#list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.listItems{
+  display: flex;
+  background-color: white;
+  justify-content: left;
+  border-top: 1px solid lightgray ;
+  padding: 19px;
+  height: 30px;
+  width: 490px;
+}
+
+img.spinner{
+  width: 120px;
+  height: auto;
+  margin-left: 200px;
+}
+
+.loader {
+  background-color: white;
+  width: 530px;
+}
+
+.btnn
+{
+  position: absolute;
+  margin-left: 22rem;
+}
+
+#box{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: auto;
+  margin-bottom: auto;
+  width: 500px;
+  height: 40px;
+  border-top: 1px solid grey ;
+  border: none;
+  color: grey;
+  font-weight: bold;
+  padding:15px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 8px 0 -3px #F6F6F6,
+    0 9px 1px -3px rgb(0 0 0 / 20%), 0 16px 0 -6px #F6F6F6,
+    0 17px 2px -6px rgb(0 0 0 / 20%);
+}
+
+.filters{
+  display: flex;
+  justify-content: space-around;
+  font-family: 200;
+}
+button{
+  background-color: white;
+  color: grey;
+  border: 1px solid white;
+  height: 30px;
+  margin-right: 20px;
+  padding:3px;
+  outline: none;
+  cursor: pointer;
+}
+.button:hover{
+  border-color: #F7EAEB;
+}
+h4{
+  font-weight: 200;
+  margin-top: 7px;
+}
+
+.textClass{
+  font-size: 16px;
+  color: grey;
+}
+
+#input{
+  margin-left: 30px;
+  width: 20rem;
+}
+#del{
+  color:red;
+  font-weight:bolder;
+  font-size: larger;
+  border:none;
+  cursor:pointer;
+  background-color:white;
+
+}
+#count{
+  color: rgb(12, 8, 8);
+  font-size:medium;
+}
+
+#filters button{
+  color: rgb(204, 204, 204);
+}
+
+#clearCompleted{
+  color: rgb(68, 67, 67);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #c8c2c2;
+  font-size: large;
+  margin-left: 15px;
+}
+.not-completed {
+  font-size: large;
+  color: #a9a9a9;
+  margin-left: 15px;
+}
+
+
+
